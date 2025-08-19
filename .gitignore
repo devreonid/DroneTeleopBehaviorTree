@@ -1,0 +1,40 @@
+# Build and install artifacts
+build/
+install/
+log/
+
+# Backup files
+# backups/
+
+# VSCode settings
+.vscode/
+
+# Compiled object files, libraries, executables
+*.o
+*.so
+*.so.*
+*.a
+*.out
+*.exe
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Colcon / ROS2 logs
+log_latest/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old

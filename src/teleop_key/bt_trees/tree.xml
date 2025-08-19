@@ -1,0 +1,10 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="drone_mission">
+      <Arm altitude="5"/>
+      <Action ID="Forward"/>
+      <Action ID="Left"/>
+      <Action ID="Land"/>
+    </Sequence>
+  </BehaviorTree>
+</root>
